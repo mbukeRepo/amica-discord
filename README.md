@@ -2,7 +2,7 @@
 
 Amica is a discord bot built using discord.js and OpenAI GPT-3.5 model to chat with when mentioned. Amica is designed to simulate a friendly conversation with you and help make your discord experience more engaging.
 
-Features
+### Features
 
 Amica offers a variety of features designed to engage with users on your server:
 
