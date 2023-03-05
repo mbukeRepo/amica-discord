@@ -8,8 +8,8 @@ const {
   EmbedBuilder,
 } = require("discord.js");
 const { Configuration, OpenAIApi } = require("openai");
-const { token } = require("./config.json");
-// const allIntents = new Intents(7796);
+const { token, apiKey } = require("./config.json");
+
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
@@ -20,7 +20,7 @@ const client = new Client({
 
 const openai = async () => {
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey,
   });
   const openai = new OpenAIApi(configuration);
   return openai;
@@ -37,10 +37,7 @@ const messages = [
       "You are Amica " +
       "you were " +
       "created by mbuke " +
-      "prince as an assistant to this team " +
-      "mbuke prince has " +
-      "three friends " +
-      "edson chryso and Ivad ",
+      "prince as an assistant to tell him jokes an help him in tasks",
   },
   {
     role: "user",
