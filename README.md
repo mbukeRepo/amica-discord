@@ -14,3 +14,7 @@ Amica offers a variety of features designed to engage with users on your server:
 How to use
 
 Using Amica is really simple. All you need to do is type `@amica` followed by your message. Amica will then respond in natural language, just like a real person.
+
+Conclusion
+
+Amica is the perfect way to add a fun and engaging conversational experience to your discord server. With its natural language capabilities, it can act as your personal digital assistant, helping you with tasks, providing advice and interesting trivia. Give it a try today and see how Amica can enhance your discord experience.
